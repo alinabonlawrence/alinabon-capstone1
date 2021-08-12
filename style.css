@@ -41,29 +41,41 @@ body {
 	border-bottom: 1px solid #fc5185;
 }
 
-header {
-	height: 100vh;
-}
+/* header {
+	background-image: url('./images/wave.svg');
+	background-repeat: no-repeat;
+} */
 
 .header-hello{
 	background-color: #fc5185;
 	display: inline-block;
 	text-align: center;
 	padding: .5em 2.5rem;
-	border-radius: 10rem 10rem 10rem 0px;
+	border-radius: 50rem 50rem 50rem 0px;
 
 }
-a {
+.header-link{
 	text-decoration: none;
+	color: white;
+}
+
+.header-link:hover {
+	color:  #43dde6;
+
+	.fa {
+  	color:  #fc5185;
+	}
 }
 
 .my-image{
 
-	width: 400px;
+	width: 300px;
 	padding: 1em;
 	/* background-color: white; */
 	border-radius: 100%;
-	border: .5em solid #fc5185;
+	/* border: .5em solid #fc5185; */
+	/* background-color: ; */
+	border: .5em solid #243447;
 }
 
 
@@ -73,12 +85,9 @@ header h1 {
 
 header li {
 	margin-top: 1rem;
-    text-decoration: none;
-    list-style-type: none;
+  list-style-type: none;
 
 }
-
-
 
 header li > a:hover{
 
@@ -86,10 +95,83 @@ header li > a:hover{
 		text-decoration: none;
 } 
 
-.about-section {
-	height: 500px;
+.about-section .container{
+	margin-top: 5rem;
 }
+
+.about-section .container-fluid{
+
+		margin-top: 10rem;
+	}
+
 
 .about-section p {
 	line-height: 2rem;
 }
+
+.card {
+	background-color: #243447;
+	/* background-color: #1a2532; */
+}
+
+.portfolio-section .container{
+	margin-top: 5rem;
+}
+
+.portfolio-section .row{
+	margin-top: 5rem;
+
+}
+
+.carousel1 {
+	background-color: #243447;
+}
+
+.site-link:link,
+.site-link:visited{
+
+		background-color: #fc5185;;
+		text-decoration: none;
+		padding: .75rem 2rem;
+		color: white;
+		width: 10rem;
+	  /*  border-radius:  0px 10px 10px 10px; */
+	  margin-top: 2rem;
+	  text-align: center;
+}
+/* footer{
+	background-color: #1C2126;
+} */
+footer .p	{
+	font-size: .75rem;
+}
+
+@media (min-width:600px) {
+
+	.my-image{
+
+		width: 400px;
+		
+	}	
+
+	.about-section .container-fluid{
+
+		margin-top: 10rem;
+	}
+	
+}
+
+
+/* @media (min-width:992px) {
+
+	.my-image{
+
+		width: 400px;
+		
+	}	
+
+	.about-section {
+
+	}
+	
+} */
