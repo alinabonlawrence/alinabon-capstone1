@@ -108,6 +108,9 @@ header li > a:hover{
 		color: #fc5185;
 		text-decoration: none;
 } 
+.about-section {
+	background-color: #1c2835;
+}
 
 .about-section .container{
 	margin-top: 5rem;
@@ -134,7 +137,6 @@ header li > a:hover{
 
 .portfolio-section .row{
 	margin-top: 5rem;
-
 }
 
 .portfolio-image {
@@ -167,6 +169,10 @@ header li > a:hover{
 	background-color: #243447;
 	width: 80px;
 }
+
+.contact-section {
+	background-color: #1c2835;
+}
 /* footer{
 	background-color: #1C2126;
 } */
@@ -193,6 +199,10 @@ i:hover{
 	text-decoration: none;
 }
 
+.bg-pink{
+	background-color: #fc5185;
+	color: white;
+}
 
 @media (min-width:600px) {
 
