@@ -207,6 +207,10 @@ i:hover{
 		margin-top: 10rem;
 	}
 
+	.portfolio-image {
+		height: 400px;
+		width: 100%;
+	}
 	
 
 	
@@ -221,5 +225,9 @@ i:hover{
 		background-repeat: no-repeat;
 	}
 	
+	.portfolio-image {
+		height: 300px;
+		width: 100%;
+	}
 }
 
