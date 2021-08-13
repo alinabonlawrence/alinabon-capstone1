@@ -60,11 +60,7 @@ body {
 }
 
 .header-link:hover {
-	color:  #43dde6;
-
-	.fa {
-  	color:  #fc5185;
-	}
+	color:  #fc5185;
 }
 
 .my-image{
@@ -81,6 +77,18 @@ body {
 
 header h1 {
 	font-size: 4rem;
+}
+
+.h-text-color{
+	color: #43dde6;
+}
+
+.p-text-color{
+	color: gray;
+}
+
+.pink {
+	color: #fc5185;
 }
 
 header li {
@@ -123,7 +131,16 @@ header li > a:hover{
 
 }
 
+.portfolio-image {
+	height: 300px;
+	width: 100%;
+}
+
 .carousel1 {
+	background-color: #243447;
+	/* background-color: #fc5185; */
+}
+.form-color {
 	background-color: #243447;
 }
 
@@ -139,12 +156,37 @@ header li > a:hover{
 	  margin-top: 2rem;
 	  text-align: center;
 }
+
+.tools {
+	background-color: #243447;
+	width: 80px;
+}
 /* footer{
 	background-color: #1C2126;
 } */
 footer .p	{
 	font-size: .75rem;
 }
+
+.link-icon {
+	width: 50px;
+}
+
+.footer-link{
+	text-decoration: none;
+	color: white;
+}
+
+.footer-link:hover {
+	color:  #fc5185;
+	text-decoration: none;
+}
+
+i:hover{
+	color:  #fc5185;
+	text-decoration: none;
+}
+
 
 @media (min-width:600px) {
 
@@ -175,3 +217,4 @@ footer .p	{
 	}
 	
 } */
+
