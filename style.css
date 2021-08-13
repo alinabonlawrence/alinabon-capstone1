@@ -41,6 +41,12 @@ body {
 	border-bottom: 1px solid #fc5185;
 }
 
+header {
+	background-image: url('./images/bg2-2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 /* header {
 	background-image: url('./images/wave.svg');
 	background-repeat: no-repeat;
@@ -67,7 +73,7 @@ body {
 
 	width: 300px;
 	padding: 1em;
-	/* background-color: white; */
+	 background-color: #1a2532; 
 	border-radius: 100%;
 	/* border: .5em solid #fc5185; */
 	/* background-color: ; */
@@ -200,21 +206,20 @@ i:hover{
 
 		margin-top: 10rem;
 	}
+
+	
+
 	
 }
 
 
-/* @media (min-width:992px) {
+@media (min-width:992px) {
 
-	.my-image{
-
-		width: 400px;
-		
-	}	
-
-	.about-section {
-
+	header {
+		background-image: url('./images/bg2-5.png');
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	
-} */
+}
 
